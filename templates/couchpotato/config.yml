@@ -1,0 +1,5 @@
+name: CouchPotato
+description: |
+  Download movies automaticily for Rancher
+version: v0.1
+category: mediacenter

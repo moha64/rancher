@@ -1,0 +1,5 @@
+name: Openvpn
+description: |
+  VPN client for Rancher
+version: v0.1
+category: infrastructure

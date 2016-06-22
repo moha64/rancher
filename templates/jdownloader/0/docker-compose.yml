@@ -1,0 +1,11 @@
+Jdownloader:
+  log_driver: ''
+  labels:
+    io.rancher.container.pull_image: always
+  tty: true
+  log_opt: {}
+  image: plusminus/jdownloader2-headless
+  volumes:
+  - ${CONFIG_JD}:/opt/JDownloader/cfg
+  - ${STORAGE_JD}:/root/Downloads
+  stdin_open: true

@@ -1,0 +1,9 @@
+OpenVPN:
+  log_driver: ''
+  labels:
+    io.rancher.container.pull_image: always
+  tty: true
+  log_opt: {}
+  image: scottyc/openvpn
+  privileged: true
+  stdin_open: true
