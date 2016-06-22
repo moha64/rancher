@@ -1,5 +1,0 @@
-name: Guacamole
-description: |
-  RDP/SSH client via HTTP for Rancher
-version: v0.1
-category: infrastructure

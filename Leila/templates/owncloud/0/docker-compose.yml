@@ -1,8 +1,0 @@
-Owncloud:
-  labels:
-    io.rancher.container.pull_image: always
-  tty: true
-  image: owncloud:8.1
-  volumes:
-  - ${STORAGE_O}:/var/www/html
-  stdin_open: true
