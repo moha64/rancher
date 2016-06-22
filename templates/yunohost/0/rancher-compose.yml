@@ -1,7 +1,0 @@
-.catalog:
-  name: "Yunohost"
-  version: "v0.1"
-  description: "Self-hosting for Rancher"
-
-OpenVPN:
-  scale: 1
