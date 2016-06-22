@@ -1,0 +1,11 @@
+Sickrage:
+  log_driver: ''
+  labels:
+    io.rancher.container.pull_image: always
+  tty: true
+  log_opt: {}
+  image: timhaak/sickrage
+  volumes:
+  - ${CONFIG_S}:/config
+  - ${STORAGE_S}:/data
+  stdin_open: true

@@ -1,0 +1,18 @@
+.catalog:
+  name: "Jdownloader"
+  version: "v0.1"
+  description: "Direct download client for Rancher"
+  questions:
+    - variable: "STORAGE_JD"
+      label: "Download path"
+      description: "Path to downloads"
+      type: "string"
+      required: true
+    - variable: "CONFIG_JD"
+      label: "Config path"
+      description: "path to config files"
+      type: "string"
+      required: true
+
+Jdownloader:
+  scale: 1

@@ -1,0 +1,7 @@
+.catalog:
+  name: "Openvpn"
+  version: "v0.1"
+  description: "VPN client for Rancher"
+  
+OpenVPN:
+  scale: 1

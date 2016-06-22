@@ -1,0 +1,5 @@
+name: Jdownloader
+description: |
+  Direct download client for Rancher
+version: v0.1
+category: mediacenter

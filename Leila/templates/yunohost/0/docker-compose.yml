@@ -1,0 +1,10 @@
+Yunohost:
+  log_driver: ''
+  labels:
+    io.rancher.container.pull_image: always
+  tty: true
+  command:
+  - /sbin/init
+  log_opt: {}
+  image: yunohost/full
+  stdin_open: true
