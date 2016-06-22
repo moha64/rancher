@@ -1,0 +1,23 @@
+.catalog:
+  name: "Transmission"
+  version: "v0.1"
+  description: "Torrent client for Rancher"
+  questions:
+    - variable: "LOGIN_T"
+      label: "Transmission login"
+      description: "login to access transmission"
+      type: "string"
+      required: true
+    - variable: "PWD_T"
+      label: "Transmission password"
+      description: "password to access transmission"
+      type: "string"
+      required: true
+    - variable: "STORAGE_T"
+      label: "Path for downloads"
+      description: "path for downloads"
+      type: "string"
+      required: true
+
+Transmission:
+  scale: 1

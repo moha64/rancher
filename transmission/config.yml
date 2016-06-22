@@ -1,0 +1,5 @@
+name: Transmission
+description: |
+  Torrent client for Rancher
+version: v0.1
+category: mediacenter
